@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сертификация студентов</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="w3-row w3-padding w3-blue w3-xlarge">
+    <div class="w3-half">
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button">Главная</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Администрирование</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="admincert.html" class="w3-bar-item w3-button">Аттестации</a>
+                    <a href="adminquiz.html" class="w3-bar-item w3-button">Вопросы</a>
+                    <a href="adminanswer.html" class="w3-bar-item w3-button">Ответы</a>
+                </div>
+            </div>
+            <a href="result.html" class="w3-bar-item w3-button">Статистика</a>
+        </div>
+    </div>
+    <div class="w3-quarter">
+        <div class="w3-padding" style="width:100%"></div>
+    </div>
+    <div class="w3-quarter">
+        <div class="w3-bar w3-xlarge">
+            <div class="w3-container w3-right">
+                <a href="#" class="w3-bar-item w3-button w3-left">Иванов И.И.</i></a>
+                <a href="#" class="w3-bar-item w3-button w3-left">
+                    <img class="w3-hide-small w3-circle" src="img/img_avtar.jpg" style="height:40px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w3-content">
+    <div class="w3-row w3-margin">
+        <div class="w3-container">
+            <div class="w3-container">
+                <h3>Для прохождения атестации, выбирите соответствующую карточку</h3>
+                <form action="testing.html">
+                    <!--Cards -->
+                    <div class="w3-card w3-section w3-left w3-margin-left" style="width: 300px">
+                        <header class="w3-container w3-blue w3-opacity w3-center">
+                            <h3>Аттестация № 1</h3>
+                        </header>
+                        <div class="w3-container" style="height: 100px">
+                            <p>Атестация по основам программирования на JAVA</p>
+                        </div>
+                        <button class="w3-button w3-block w3-light-grey w3-cell-bottom" name="num" value="1">
+                            Выбрать аттестацию
+                        </button>
+                    </div>
+                    <!--Cards -->
+                    <div class="w3-card w3-section w3-left w3-margin-left" style="width: 300px">
+                        <header class="w3-container w3-blue w3-opacity w3-center">
+                            <h3>Аттестация № 2</h3>
+                        </header>
+                        <div class="w3-container" style="height: 100px">
+                            <p>Вопросы по JavaScript</p>
+                        </div>
+                        <button class="w3-button w3-block w3-light-grey" name="num" value="2">
+                            Выбрать аттестацию
+                        </button>
+                    </div>
+                    <!--Cards -->
+                    <div class="w3-card w3-section w3-left w3-margin-left" style="width: 300px">
+                        <header class="w3-container w3-blue w3-opacity w3-center">
+                            <h3>Аттестация № 3</h3>
+                        </header>
+                        <div class="w3-container" style="height: 100px">
+                            <p>Атестация сотрудников "Библио Глобус"</p>
+                        </div>
+                        <button class="w3-button w3-block w3-light-grey" name="num" value="3">
+                            Выбрать аттестацию
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/processing.js"></script>
+</body>
+</html>
