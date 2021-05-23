@@ -5,6 +5,7 @@
       <mapping pattern="dat" type="PLAIN_TEXT" />
       <mapping pattern="celerybeat-schedule" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".covaragerc" type="PLAIN_TEXT" />
       <mapping ext="ods" type="PLAIN_TEXT" />
       <mapping ext="txt " type="PLAIN_TEXT" />
     </extensionMap>
